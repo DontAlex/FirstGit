@@ -9,4 +9,7 @@ def index(request):
 def categories(request):
     return HttpResponse('<h1> Страница по категориям </h1>')
 
+def title(request):
+    return HttpResponse('Главная страница')
+
 

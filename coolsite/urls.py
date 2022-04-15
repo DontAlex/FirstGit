@@ -19,6 +19,7 @@ from women.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', title),
     path('women/', index),
     path('cats/', categories),
 ]
